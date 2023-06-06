@@ -2,8 +2,8 @@
 pragma solidity ^0.8.6;
 
 import "./Functions.sol";
-import "./FunctionsClientInterface.sol";
-import "./FunctionsOracleInterface.sol";
+import "../interfaces/FunctionsClientInterface.sol";
+import "../interfaces/FunctionsOracleInterface.sol";
 
 /**
  * @title The Chainlink Functions client contract
